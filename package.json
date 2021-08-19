@@ -6,7 +6,7 @@
   "scripts": {
     "run": "npm run run:node; npm run run:jest",
     "run:node": "node index.js && echo Node: OK",
-    "run:jest": "jest"
+    "run:jest": "jest && echo Jest: OK"
   },
   "author": "",
   "license": "ISC",
